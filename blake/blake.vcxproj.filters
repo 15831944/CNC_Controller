@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DEC">
+      <UniqueIdentifier>{91b10c9f-2a15-4be2-ad35-962c83b374a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drivers">
+      <UniqueIdentifier>{690c4e48-6c74-442e-84d9-3b2590db056a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INTP">
+      <UniqueIdentifier>{985d38ca-53f0-49a8-acb0-e50e5bc90848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SYS">
+      <UniqueIdentifier>{781255a1-c546-43f5-ae07-501e6da5b4c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DEC\INC">
+      <UniqueIdentifier>{690044c9-25cc-4855-9241-c08fc2251cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DEC\SRC">
+      <UniqueIdentifier>{84fff3b6-c55e-401c-9254-e503de10dede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drivers\INC">
+      <UniqueIdentifier>{3c19d09e-1131-42f4-b413-13addcd61bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drivers\SRC">
+      <UniqueIdentifier>{1ce5177f-2e12-4e43-a63d-1cb7182e0726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INTP\INC">
+      <UniqueIdentifier>{76f531f8-0c55-4f25-832a-87dc117922b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INTP\SRC">
+      <UniqueIdentifier>{66dc495b-1c40-4670-9aab-a04f22745368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SYS\INC">
+      <UniqueIdentifier>{db46240c-8622-4680-8d78-77e600109783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SYS\SRC">
+      <UniqueIdentifier>{08d417c6-1a0d-45ec-a594-82e2cc639d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FIFO">
+      <UniqueIdentifier>{1f6af058-a251-4e04-a34b-a6fcfe2a4a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FIFO\INC">
+      <UniqueIdentifier>{3970fe7d-a623-41bc-9f6d-03ff595f1be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FIFO\SRC">
+      <UniqueIdentifier>{74431651-18bc-4835-ad0d-71648ce41448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNC">
+      <UniqueIdentifier>{6fa3d9d4-7064-4e68-91c1-5193e3df41f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNC\INC">
+      <UniqueIdentifier>{69b1119a-d2c9-4240-9e80-2c79906f5f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SYS_LINK">
+      <UniqueIdentifier>{22fda7e8-5249-4b39-a159-2a9c2932d6d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNC\SRC">
+      <UniqueIdentifier>{4d55536f-cdc5-4631-9207-4c2a043d4ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\原始程式檔">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="DEF">
+      <UniqueIdentifier>{119484ff-6f78-432f-9e5d-fad52ac9da93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMI">
+      <UniqueIdentifier>{f071562f-5213-45cb-9e50-d2d6589c14ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMI\INC">
+      <UniqueIdentifier>{a4c90d71-3ee1-43b9-ae94-2d4c06da75d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMI\SRC">
+      <UniqueIdentifier>{7e894a18-83af-4336-a90e-f74570045a24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="app.ico">
+      <Filter>資源檔</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="blake.cpp">
+      <Filter>標頭檔\原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>標頭檔\原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>標頭檔\原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MMI\SRC\MMI.cpp">
+      <Filter>MMI\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DEC\SRC\dec.cpp">
+      <Filter>DEC\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FIFO\SRC\fifo.cpp">
+      <Filter>FIFO\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\INTP\SRC\INTP.cpp">
+      <Filter>INTP\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CNC\SRC\CNC.cpp">
+      <Filter>CNC\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SYS\SRC\SYS.cpp">
+      <Filter>SYS\SRC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Form1.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DEC\INC\dec.h">
+      <Filter>DEC\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SYS\INC\SYS.h">
+      <Filter>SYS\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MMI\INC\MMI.h">
+      <Filter>MMI\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SYS_LINK\INC\sys_link.h">
+      <Filter>SYS_LINK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FIFO\INC\fifo.h">
+      <Filter>FIFO\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INTP\INC\INTP.h">
+      <Filter>INTP\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DEF\cpSwitch.h">
+      <Filter>DEF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\INC\MEPCIODEV.H">
+      <Filter>Drivers\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\INC\MEPCIOINI.H">
+      <Filter>Drivers\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\INC\stepMotorDRV.h">
+      <Filter>Drivers\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CNC\INC\CNC.h">
+      <Filter>CNC\INC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>資源檔</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resX">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Drivers\LIB\driverCreate_2012.lib">
+      <Filter>Drivers\SRC</Filter>
+    </Library>
+    <Library Include="..\Drivers\LIB\MEPCIOPCIDrv.lib">
+      <Filter>Drivers\SRC</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
