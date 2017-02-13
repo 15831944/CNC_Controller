@@ -2,4 +2,4 @@
 
 ### CNC Design ###
 
-![alt tag](https://github.com/AndersonChang/CNC_Controller/images/3.jpg)
+![alt tag](https://github.com/AndersonChang/CNC_Controller/images/3.JPG)
